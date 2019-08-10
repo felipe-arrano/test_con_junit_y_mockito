@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d38275e3-d7d2-4238-aec1-8bf9a311e685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/movies/data/MovieRepositoryImplJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql-script/test-data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/movies/data/MovieRepositoryImplJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movies/data/MovieRepositoryImplJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/movies/data/MovieRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="testconjava" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,22 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.divisiblePorTresEsFizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testconjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="divisiblePorTresEsFizz" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovieRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testconjava" />
       <extension name="coverage">
@@ -112,6 +97,38 @@
       <option name="PACKAGE_NAME" value="movies.data" />
       <option name="MAIN_CLASS_NAME" value="movies.data.MovieRepositoryIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryIntegrationTest.load_all_movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testconjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="movies.data" />
+      <option name="MAIN_CLASS_NAME" value="movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="load_all_movies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryIntegrationTest.load_movie_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testconjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="movies.data" />
+      <option name="MAIN_CLASS_NAME" value="movies.data.MovieRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="load_movie_by_id" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,28 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testconjava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="payments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="payments" />
-      <option name="MAIN_CLASS_NAME" value="payments.PaymentProcessorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MovieRepositoryIntegrationTest" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_all_movies" />
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_movie_by_id" />
         <item itemvalue="JUnit.MovieServiceTest.return_movies_by_genre" />
         <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.divisiblePorTresEsFizz" />
-        <item itemvalue="JUnit.PaymentProcessorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,7 @@
       <workItem from="1565090881168" duration="1787000" />
       <workItem from="1565297210206" duration="1907000" />
       <workItem from="1565366357438" duration="2845000" />
-      <workItem from="1565440773000" duration="1382000" />
+      <workItem from="1565440773000" duration="2554000" />
     </task>
     <servers />
   </component>
